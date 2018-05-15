@@ -1,1 +1,7 @@
-<h1>Hello World!</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+           <app-message [inputMessage]="message" (editClicked)="message.content = $event"></app-message>
+        </div>
+    </div>
+</div>
